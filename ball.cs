@@ -30,7 +30,11 @@ public partial class ball : CharacterBody3D
 		{
 			// Move in circles based on total time.
 			Vector3 moveDirection = new Vector3(Mathf.Cos((float)totalTime), 0, Mathf.Sin((float)totalTime));
-			velocity = moveDirection.Normalized() * Speed;
+			moveDirection = moveDirection.Normalized() * Speed;
+			
+			// Don't overwrite y velocity, so the object can still fall.
+			velocity.x = moveDirection.x;
+			velocity.z = moveDirection.z;
 		}
 		else
 		{
