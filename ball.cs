@@ -33,8 +33,8 @@ public partial class ball : CharacterBody3D
 			moveDirection = moveDirection.Normalized() * Speed;
 			
 			// Don't overwrite y velocity, so the object can still fall.
-			velocity.x = moveDirection.x;
-			velocity.z = moveDirection.z;
+			velocity.X = moveDirection.X;
+			velocity.Z = moveDirection.Z;
 		}
 		else
 		{
