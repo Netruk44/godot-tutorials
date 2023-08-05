@@ -1,1 +1,1 @@
-This branch contains the completed code for the tutorial [Weeping Angel Effect in Godot Engine](https://www.danieltperry.me/post/godot-weeping-angel-effect/).
+This branch contains the completed code for the tutorial [3D Navigation in Godot](https://www.danieltperry.me/post/godot-navigation/)https://www.danieltperry.me/post/godot-navigation/.
