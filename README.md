@@ -1,1 +1,1 @@
-This branch contains the completed code for the tutorial [3D Navigation in Godot](https://www.danieltperry.me/post/godot-navigation/)https://www.danieltperry.me/post/godot-navigation/.
+This branch contains the completed code for the tutorial [3D Navigation in Godot](https://www.danieltperry.me/post/godot-navigation/).
